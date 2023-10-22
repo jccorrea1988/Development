@@ -1,0 +1,27 @@
+﻿@page "/"
+@inject IRepositorio repositorio
+
+<PageTitle>Blazor Películas</PageTitle>
+
+
+<div>
+    <h3>Película</h3>
+    <ListadoPeliculas Peliculas="Peliculas" />
+
+</div>
+
+
+@code {
+    private IDictionary<string, object> EjemploTextBoxParametros = new Dictionary<string, object>()
+    {
+        { "placeholder", "nuevo placeholder 2"},
+        { "disabled", "true"}
+    };
+
+    public List<Pelicula>? Peliculas { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Peliculas = repositorio.ObtenerPeliculas();
+    }
+}
