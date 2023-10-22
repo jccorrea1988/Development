@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\Work\Cursos\Blazor\BlazorPeliculasNet7\BlazorPeliculasNet7\Server\obj\Release\net7.0\PubTmp\Out\" />
+  <dbfullsql path="D:\Work\Cursos\Blazor\BlazorPeliculasNet7\BlazorPeliculasNet7\Server\obj\Release\net7.0\PubTmp\EFSQLScripts\BlazorPeliculasNet7.Server.ApplicationDbContext.sql" />
+</sitemanifest>

@@ -1,0 +1,12 @@
+D:\Work\Cursos\Blazor\BlazorPeliculasNet7\BlazorPeliculasNet7\Shared\bin\Release\net7.0\BlazorPeliculasNet7.Shared.deps.json
+D:\Work\Cursos\Blazor\BlazorPeliculasNet7\BlazorPeliculasNet7\Shared\bin\Release\net7.0\BlazorPeliculasNet7.Shared.dll
+D:\Work\Cursos\Blazor\BlazorPeliculasNet7\BlazorPeliculasNet7\Shared\bin\Release\net7.0\BlazorPeliculasNet7.Shared.pdb
+D:\Work\Cursos\Blazor\BlazorPeliculasNet7\BlazorPeliculasNet7\Shared\obj\Release\net7.0\BlazorPeliculasNet7.Shared.csproj.AssemblyReference.cache
+D:\Work\Cursos\Blazor\BlazorPeliculasNet7\BlazorPeliculasNet7\Shared\obj\Release\net7.0\BlazorPeliculasNet7.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Cursos\Blazor\BlazorPeliculasNet7\BlazorPeliculasNet7\Shared\obj\Release\net7.0\BlazorPeliculasNet7.Shared.AssemblyInfoInputs.cache
+D:\Work\Cursos\Blazor\BlazorPeliculasNet7\BlazorPeliculasNet7\Shared\obj\Release\net7.0\BlazorPeliculasNet7.Shared.AssemblyInfo.cs
+D:\Work\Cursos\Blazor\BlazorPeliculasNet7\BlazorPeliculasNet7\Shared\obj\Release\net7.0\BlazorPeliculasNet7.Shared.csproj.CoreCompileInputs.cache
+D:\Work\Cursos\Blazor\BlazorPeliculasNet7\BlazorPeliculasNet7\Shared\obj\Release\net7.0\BlazorPeliculasNet7.Shared.dll
+D:\Work\Cursos\Blazor\BlazorPeliculasNet7\BlazorPeliculasNet7\Shared\obj\Release\net7.0\refint\BlazorPeliculasNet7.Shared.dll
+D:\Work\Cursos\Blazor\BlazorPeliculasNet7\BlazorPeliculasNet7\Shared\obj\Release\net7.0\BlazorPeliculasNet7.Shared.pdb
+D:\Work\Cursos\Blazor\BlazorPeliculasNet7\BlazorPeliculasNet7\Shared\obj\Release\net7.0\ref\BlazorPeliculasNet7.Shared.dll

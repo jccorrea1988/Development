@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Work\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Server\\wwwroot\\personas\\124b6b6e-6d4d-4191-ae56-81230e216223.jpg",
+      "PackagePath": "staticwebassets\\personas\\124b6b6e-6d4d-4191-ae56-81230e216223.jpg"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.BlazorPeliculasNet7.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.BlazorPeliculasNet7.Server.props",
+      "PackagePath": "build\\BlazorPeliculasNet7.Server.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorPeliculasNet7.Server.props",
+      "PackagePath": "buildMultiTargeting\\BlazorPeliculasNet7.Server.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.BlazorPeliculasNet7.Server.props",
+      "PackagePath": "buildTransitive\\BlazorPeliculasNet7.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

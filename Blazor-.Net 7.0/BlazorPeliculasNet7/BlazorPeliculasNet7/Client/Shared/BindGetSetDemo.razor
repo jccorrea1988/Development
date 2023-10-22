@@ -1,0 +1,16 @@
+﻿<h3>BindGetSetDemo</h3>
+
+<input type="text" @bind="texto"/>
+
+<p>
+    Texto: @texto
+</p>
+
+@code {
+    private string texto = string.Empty;
+    private Task SetAsync(string valor)
+    {
+        texto = valor.ToUpper();
+        return Task.CompletedTask;
+    }
+}

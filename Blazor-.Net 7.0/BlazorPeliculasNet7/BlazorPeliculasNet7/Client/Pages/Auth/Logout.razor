@@ -1,0 +1,14 @@
+﻿@page "/logout"
+@using BlazorPeliculasNet7.Client.Auth;
+@inject ILoginService loginService
+@inject NavigationManager navigationManager
+
+<h3>Deslogeando...</h3>
+
+@code {
+    protected async override Task OnInitializedAsync()
+    {
+        await loginService.Logout();
+        navigationManager.NavigateTo("");
+    }
+}

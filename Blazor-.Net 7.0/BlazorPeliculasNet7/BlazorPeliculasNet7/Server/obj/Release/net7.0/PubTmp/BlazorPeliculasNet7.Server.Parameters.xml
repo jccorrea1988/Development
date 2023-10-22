@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="BlazorPeliculasNet7Server20230819185947" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Work\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Server\\obj\\Release\\net7\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="BlazorPeliculasNet7.Server.ApplicationDbContext" description="" value="Data Source=blazorpeliculasnet7serverdbserver.database.windows.net,1433;Initial Catalog=BlazorPeliculasNet7.Server_db;User ID=jcorrea;Password=Coloni@922" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\Work\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Server\\obj\\Release\\net7\.0\\PubTmp\\EFSQLScripts\\BlazorPeliculasNet7\.Server\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

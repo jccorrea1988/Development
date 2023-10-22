@@ -1,0 +1,81 @@
+﻿@page "/peliculas/editar/{PeliculaId:int}"
+@using Microsoft.AspNetCore.Authorization;
+@inject IRepositorio repositorio
+@inject NavigationManager navigationManager
+@inject SweetAlertService swal
+@attribute [Authorize(Roles = "admin")]
+
+<h3>Editar Películas</h3>
+
+@if (Pelicula is null)
+{
+    <p>Cargando...</p>
+}else
+{
+     <FormularioPeliculas Pelicula="Pelicula" OnValidSubmit="Editar" 
+    GenerosNoSeleccionados="GenerosNoSeleccionados"
+    GenerosSeleccionados="GenerosSeleccionados"
+    ActoresSeleccionados="ActoresSeleccionados"
+    ></FormularioPeliculas>   
+}
+
+
+@code {
+    [Parameter] public int PeliculaId { get; set; }
+    Pelicula? Pelicula;
+    private List<Genero> GenerosNoSeleccionados = new List<Genero>();
+    private List<Genero> GenerosSeleccionados = new List<Genero>();
+    private List<Actor> ActoresSeleccionados = new List<Actor>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var httpResponse = await repositorio.Get<PeliculaActualizacionDTO>($"api/peliculas/actualizar/{PeliculaId}");
+
+        if (httpResponse.Error)
+        {
+            if (httpResponse.HttpResponseMessage.StatusCode == System.Net.HttpStatusCode.NotFound)
+            {
+                navigationManager.NavigateTo("/");
+            }else
+            {
+                var mensajeError = await httpResponse.ObtenerMensajeError();
+                await swal.FireAsync("Error", mensajeError, SweetAlertIcon.Error);
+            }
+        }else
+        {
+            var modelo = httpResponse.Response!;
+            ActoresSeleccionados = modelo.Actores;
+            GenerosSeleccionados = modelo.GenerosSeleccionados;
+            GenerosNoSeleccionados = modelo.GenerosNoSeleccionados;
+            Pelicula = modelo.Pelicula;
+        }
+        /*Pelicula = new Pelicula { Id = PeliculaId, Titulo = "Mi Película" };
+        GenerosNoSeleccionados = new List<Genero>()
+        {
+            new Genero() { Id = 1, Nombre = "Comedia"},
+            new Genero() { Id = 2, Nombre = "Drama"},
+            new Genero() { Id = 3, Nombre = "Accíon"},
+            new Genero() { Id = 4, Nombre = "Sci-fi"}
+        };
+        GenerosSeleccionados = new List<Genero>()
+        {          
+            new Genero() { Id = 2, Nombre = "Drama"},          
+        };*/
+    }
+
+    private async Task Editar()
+    {
+        var respuestaHTTP = await repositorio.Put("api/peliculas", Pelicula);
+
+        if (respuestaHTTP.Error)
+        {
+            var mensajeError = await respuestaHTTP.ObtenerMensajeError();
+            await swal.FireAsync("Error", mensajeError, SweetAlertIcon.Error);
+        }
+        else
+        {
+            navigationManager.NavigateTo($"pelicula/{PeliculaId}");
+        }
+
+    }
+}

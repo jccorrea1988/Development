@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\obj\\Debug\\net7.0\\build-gz\\Fv0DBJjv.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorPeliculasNet7.Client.styles.css",
+      "PackagePath": "staticwebassets\\BlazorPeliculasNet7.Client.styles.css"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\js\\Counter.js",
+      "PackagePath": "staticwebassets\\js\\Counter.js"
+    },
+    {
+      "Id": "D:\\Cursos\\Blazor\\BlazorPeliculasNet7\\BlazorPeliculasNet7\\Client\\wwwroot\\js\\Utilidades.js",
+      "PackagePath": "staticwebassets\\js\\Utilidades.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BlazorPeliculasNet7.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BlazorPeliculasNet7.Client.props",
+      "PackagePath": "build\\BlazorPeliculasNet7.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorPeliculasNet7.Client.props",
+      "PackagePath": "buildMultiTargeting\\BlazorPeliculasNet7.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BlazorPeliculasNet7.Client.props",
+      "PackagePath": "buildTransitive\\BlazorPeliculasNet7.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
